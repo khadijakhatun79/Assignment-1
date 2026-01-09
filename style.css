@@ -36,11 +36,16 @@ nav .menu {
   gap: 32px;
 }
 
-nav .menu a {
+nav .menu li a {
   font-size: 16px;
   color: #000000;
   text-decoration: none;
+  transition: all 0.4s;
+  
 
+}
+nav .menu li a:hover {
+  color: #469165;
 }
 
 
@@ -51,11 +56,10 @@ nav .menu a {
   padding: 12px 16px;
   text-align: center;
   font-size: 16px;
-  letter-spacing: 1px;
   text-decoration: none;
   color: #fff;
   background: #469165;
-  font-weight: 600;
+  font-weight: 500;
   transition: ease-out 0.5s;
   border-radius: 4px;
   z-index: 2;
@@ -254,8 +258,11 @@ nav .menu a {
 }
 
 /* note area section */
-.note-area {
+.note-section {
+  background-color: #FBFBFB;
   padding-top: 80px;
+}
+.note-area {
   max-width: 1360px;
   display: block;
   margin: auto;
@@ -321,72 +328,173 @@ nav .menu a {
   color: #627382;
 
 }
+
 /* note area section end */
 /* brain-section */
-.brain-section{
-max-width: 1360px;
-display: block;
-margin:auto;
-padding: 120px 0;
+.brain-section {
+  max-width: 1360px;
+  display: block;
+  margin: auto;
+  padding: 120px 0;
 
 }
-.brain-wrapper{
+
+.brain-wrapper {
   display: flex;
   gap: 60px;
   align-items: center;
 }
-.box-content{
-max-width: 600px;
+
+.box-content {
+  max-width: 600px;
 }
-.box-content .title-area{
+
+.box-content .title-area {
   text-align: left;
 }
-.box-content .sub-title{
-font-family: 'Inter';
-font-weight: 500;
-font-size: 16px;
-line-height: 20px;
-text-transform: uppercase;
-color: #469165;
-display: block;
-margin-bottom: 16px;
+
+.box-content .sub-title {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #469165;
+  display: block;
+  margin-bottom: 16px;
 
 }
-.box-content .sec-title{
-font-family: 'Inter';
-font-style: normal;
-line-height: 58px;
-text-transform: capitalize;
-color: #001931;
-margin-bottom:16px;
+
+.box-content .sec-title {
+  font-family: 'Inter';
+  font-style: normal;
+  line-height: 58px;
+  text-transform: capitalize;
+  color: #001931;
+  margin-bottom: 16px;
 
 }
-.box-content .checklist li{
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 20px;
-color: #001931;
-list-style: none;
-margin-bottom: 16px;
+.box-content .checklist li {
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #001931;
+  list-style: none;
+  margin-bottom: 16px;
 
 
 
 }
-.box-content .checklist li i{
+
+.box-content .checklist li i {
   color: #30B868;
   margin-right: 6px;
-  
-}
-.box-content .sec-text{
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-color: #627382;
 
-max-width: 510px;
+}
+
+.box-content .sec-text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #627382;
+
+  max-width: 510px;
+
+}
+
+/* brain-end*/
+/* easy-acess-section */
+.early-acess-section {
+  padding: 80px 0px;
+  background-color: #F7F6F2;
+  max-width: 1360px;
+  display: block;
+  margin: auto;
+  border-radius: 12px;
+}
+
+.early-acess-section .title-area .sec-text {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 16px;
+ line-height: 28px;
+  text-align: center;
+  color: #627382;
+  max-width: 600px;
+  display: block;
+  margin: auto auto 24px auto;
+}
+
+.early-acess-section .title-area .button {
+  padding: 15.5px 16px;
+  background: #469165;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  margin-bottom: 24px;
+}
+
+/* easy-acess-section end*/
+/* fotter-section-start */
+.footer-section {
+  background-color: #001931;
+  margin-top: 120px;
+}
+
+.footer-section .footer-content {
+  max-width: 1360px;
+  display: block;
+  margin: auto;
+}
+
+.footer-section .fotter-wrapper {
+  padding: 120px 0px 80px 0px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  border-bottom: 1px solid rgba(229, 231, 235, 0.2);
+}
+
+.social-links {}
+
+.social-links .title {
+  font-weight: 500;
+  font-size: 20px;
+  color: #FFFFFF;
+  display: block;
+  margin-bottom: 16px;
+
+
+}
+
+.social-links a {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
+  display: inline-block;
+  color: #000;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-right: 16px;
+  transition: all 0.4s;
+
+}
+.social-links a:hover{
+  color: #fff;
+  background-color: #469165; 
+}
+
+.copyright-wrap .copyright-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #FAFAFA;
+  padding: 30px 0;
 
 }
