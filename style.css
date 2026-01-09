@@ -321,3 +321,72 @@ nav .menu a {
   color: #627382;
 
 }
+/* note area section end */
+/* brain-section */
+.brain-section{
+max-width: 1360px;
+display: block;
+margin:auto;
+padding: 120px 0;
+
+}
+.brain-wrapper{
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+.box-content{
+max-width: 600px;
+}
+.box-content .title-area{
+  text-align: left;
+}
+.box-content .sub-title{
+font-family: 'Inter';
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+text-transform: uppercase;
+color: #469165;
+display: block;
+margin-bottom: 16px;
+
+}
+.box-content .sec-title{
+font-family: 'Inter';
+font-style: normal;
+line-height: 58px;
+text-transform: capitalize;
+color: #001931;
+margin-bottom:16px;
+
+}
+.box-content .checklist li{
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+color: #001931;
+list-style: none;
+margin-bottom: 16px;
+
+
+
+}
+.box-content .checklist li i{
+  color: #30B868;
+  margin-right: 6px;
+  
+}
+.box-content .sec-text{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: #627382;
+
+max-width: 510px;
+
+}
